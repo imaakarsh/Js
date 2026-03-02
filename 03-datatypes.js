@@ -56,6 +56,7 @@ const armorOriginal ={
     },
 };
 
+// Spread Operators
 const armorCopy ={...armorOriginal};
 armorCopy.buff.fire=90;
 

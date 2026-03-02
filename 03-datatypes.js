@@ -56,3 +56,11 @@ const armorOriginal ={
     },
 };
 
+const armorCopy ={...armorOriginal};
+armorCopy.buff.fire=90;
+
+const potionOriginal ={name:"Health", effect:{heal:40}}
+const potrionCopy = structuredClone(potionOriginal)
+
+typeof null === "object"
+Array.isArray()

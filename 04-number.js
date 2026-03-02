@@ -8,3 +8,7 @@ const negativeinfinityRange = -Infinity
 const notANumber = NaN
 
 console.log(1/0);
+
+console.log(Number.MAX_SAFE_INTEGER)
+console.log(Number.MIN_SAFE_INTEGER)
+console.log(Number.isFinite)

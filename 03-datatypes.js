@@ -36,3 +36,23 @@ console.log(typeof null)
 console.log(typeof Symbol())
 console.log(typeof {})
 console.log(typeof [])
+
+
+const originalSward = {
+    name : "FlameSward",
+    dmage :75,
+    typeofW: "fire"
+}
+
+const cloneSword = originalSward;
+originalSward.dmage = 100;
+console.log(originalSward.dmage)
+
+const armorOriginal ={
+    name:"Iron PLate",
+    defence:80,
+    buff:{
+        fire:10,
+    },
+};
+
